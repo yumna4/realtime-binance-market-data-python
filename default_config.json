@@ -1,0 +1,11 @@
+{
+  "database": {
+    "db": "binance_data",
+    "user": "root",
+    "password": "xxxxx",
+    "host": "localhost",
+    "port": "3306",
+    "conn_max_age": 0
+  },
+  "api_host_port": 8001
+}
