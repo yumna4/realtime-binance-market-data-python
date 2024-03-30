@@ -1,8 +1,8 @@
 # Setting up project
 
-Clone this project and install all requirements using "pip install requirements.txt"
-Run the project using "python fast_api.py"
-Test the API by going to http://127.0.0.1:8001/docs on your browser
+ - Clone this project and install all requirements using "pip install requirements.txt"
+ - Run the project using "python fast_api.py"
+ - Test the API by going to http://127.0.0.1:8001/docs on your browser
 
 ## Functionality
 
