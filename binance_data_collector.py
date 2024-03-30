@@ -23,7 +23,6 @@ def on_message(ws_param, message):
         if (datetime.datetime.now()- last_logged_times[symbol])<datetime.timedelta(minutes=5):
             return
     new_data = MarketData(timestamp, symbol, current_price)
-    print ("COMMONNNNN", common.global_variables.current_symbol_prices)
     common.global_variables.current_symbol_prices[new_data.symbol] = {"price":new_data.price, "time":new_data.timestamp}
     data_to_add.append(new_data)
     if len(data_to_add)==12:

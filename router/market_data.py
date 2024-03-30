@@ -28,7 +28,6 @@ def get_latest_data(symbol: Symbols = Symbols.BTCUSDT, db: Session = Depends(get
                   "price": 69942
                 }
     """
-    print("COMMONNNNN123", common.global_variables.current_symbol_prices)
     last_logged_timestamp = common.global_variables.current_symbol_prices[symbol]["time"]
     # use caching for improved performance
     if (datetime.datetime.now()-last_logged_timestamp)<datetime.timedelta(minutes=1):
